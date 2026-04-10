@@ -1,0 +1,10 @@
+emoji==2.15.0
+googletrans==4.0.0rc1
+nltk==3.9.3
+numpy==2.4.4
+pandas==3.0.2
+scikit_learn==1.8.0
+setuptools==65.5.0
+symspellpy==6.9.0
+textblob==0.20.0
+tqdm==4.67.3
