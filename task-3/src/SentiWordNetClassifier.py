@@ -134,11 +134,16 @@ def classify_dataframe(df, text_column="text", threshold=0.05):
 # ─────────────────────────────────────────────
 def evaluate(df, true_col, pred_col="swn_label"):
     from sklearn.metrics import classification_report, confusion_matrix
+
+    # Normalize case for both columns
+    true = df[true_col].str.lower().str.strip()
+    pred = df[pred_col].str.lower().str.strip()
+
     print("=== SentiWordNet Classifier — Evaluation ===\n")
-    print(classification_report(df[true_col], df[pred_col]))
+    print(classification_report(true, pred))
     print("Confusion Matrix:")
-    labels = sorted(df[true_col].unique())
-    cm = confusion_matrix(df[true_col], df[pred_col], labels=labels)
+    labels = sorted(true.unique())
+    cm = confusion_matrix(true, pred, labels=labels)
     cm_df = pd.DataFrame(cm, index=labels, columns=labels)
     print(cm_df)
 
@@ -275,7 +280,7 @@ if __name__ == "__main__":
 ## python SentiWordNetClassifier.py --input reviews.csv --text-col review_text --output results.csv
 
 # With ground truth evaluation
-## python SentiWordNetClassifier.py --input data.csv --text-col text --true-col sentiment --output results.csv
+## python SentiWordNetClassifier.py --input GROUBD_TRUTH_WITH_FINAL_LABEL.CSV --text-col review_text --true-col final_label --output SWresults.csv
 
 # With Excel input + custom threshold
 ## python SentiWordNetClassifier.py --input data.xlsx --text-col body --threshold 0.1 --output out.csv

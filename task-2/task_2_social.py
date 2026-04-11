@@ -14,7 +14,7 @@ translator = Translator()
 
 tqdm.pandas()
 
-# run command: python task_2_social.py --input STEAM_GAMES.csv --output STEAM_GAMES_CLEAN.csv --translate --fix_encoding --remove_noise --lowercase --remove_numbers --fix_spelling --lemmatize --extract_tags --remove_stopwords --remove_emojis
+# run command: python task_2_social.py --input GROUBD_TRUTH_WITH_FINAL_LABEL.CSV --output STEAM_GAMES_CLEAN.csv --translate --fix_encoding --remove_noise --lowercase --remove_numbers --fix_spelling --lemmatize --extract_tags --remove_stopwords --remove_emojis
 # python task_2_social.py --input STEAM_GAMES_REDUCED.csv --output SCHEMA_1.csv --translate --fix_encoding --remove_noise --lowercase
 # python task_2_social.py --input SCHEMA_1.csv --output SCHEMA_2.csv --remove_numbers --remove_emojis --lemmatize
 # python task_2_social.py --input SCHEMA_2.csv --output SCHEMA_3.csv --fix_spelling --remove_stopwords
@@ -183,8 +183,8 @@ def preprocess(df, args, text_col, category_col):
     if args.extract_tags:
         print(f"Unique categories: {df['category'].nunique()}")
     
-    print("Dropping empty/null reviews after cleaning...")
-    df = drop_empty_after_cleaning(df, text_col)
+    # print("Dropping empty/null reviews after cleaning...")
+    # df = drop_empty_after_cleaning(df, text_col)
     
     return df
 
