@@ -14,13 +14,14 @@ translator = Translator()
 
 tqdm.pandas()
 
-# run command: python task_2_social.py --input GROUBD_TRUTH_WITH_FINAL_LABEL.CSV --output STEAM_GAMES_CLEAN.csv --translate --fix_encoding --remove_noise --lowercase --remove_numbers --fix_spelling --lemmatize --extract_tags --remove_stopwords --remove_emojis
+# python task_2_social.py --input GROUBD_TRUTH_WITH_FINAL_LABEL.CSV --output STEAM_GAMES_CLEAN_GTLabel.csv --translate --fix_encoding --remove_noise --lowercase --remove_numbers --fix_spelling --lemmatize --extract_tags --remove_stopwords --remove_emojis
 # python task_2_social.py --input STEAM_GAMES_REDUCED.csv --output SCHEMA_1.csv --translate --fix_encoding --remove_noise --lowercase
 # python task_2_social.py --input SCHEMA_1.csv --output SCHEMA_2.csv --remove_numbers --remove_emojis --lemmatize
 # python task_2_social.py --input SCHEMA_2.csv --output SCHEMA_3.csv --fix_spelling --remove_stopwords
 # ---------------------------
 # Initialize SymSpell
 # ---------------------------
+
 sym_spell = SymSpell(max_dictionary_edit_distance=2)
 import pkg_resources
 dictionary_path = pkg_resources.resource_filename(

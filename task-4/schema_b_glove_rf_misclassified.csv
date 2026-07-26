@@ -1,0 +1,26 @@
+review_text,true_label,predicted_label,correct,review_length,misclass_pair
+"try fingers, but hole",neutral,negative,False,21,neutral -> negative
+"Malenia and Ranni are both so bad and they both get me rock hard
+",negative,positive,False,66,negative -> positive
+"I love this game, sadly it doesn't even work, it shuts down my pc everytime i try just playing it, or in the best of the cases it just barely works, what an UNDEMOCRATIC port (btw this is the only game that shuts down my pc, i even can play bodycam at 75 fps)",negative,positive,False,259,negative -> positive
+Gotta love when the devs slowly remove everything fun about a game and just leave a meaningless incrimental number grind behind,negative,positive,False,127,negative -> positive
+best game awful anticheat tho,negative,positive,False,29,negative -> positive
+"Has to be one of the worst games i have ever played, if we talking gamplay.
+
+Only good thing about this game are the graphics and the Story.",negative,positive,False,142,negative -> positive
+"I have played every Monster Hunter games since tri. I love Monster Hunter games, I love the challenge, I love seeing the monsters ""live"" in the enviroments, I love the weapons and the combat, the cooking, the online community. We had wholesome and hard hunts in mh4u, even when none of us could talk to eachother, cause no one in the lobby could speak english.
+
+MH: Wilds is by far the worst and least enjoyable MH game I have ever played. MH: Online was better than this, And I can't read chinese. I didn't know what was happening half the time.
+
+The combat is great. IMO the graphics are really nice. I think the Seikret is a good addition and the areas are great.
+
+But this is not a true MH game. It feels like Final Fantasy, painted in MH colours. I don't want to disable items, I want to throw them out of the inventory! The story is incredibly annoying. We lost the MH language and the palico can SHUT UP for all I care.
+And the worst of it is the Gogamizos fight. It's an easy battle, but the dps check is completely unnecessary. Yes, we had DPS checks in all games. Yes its an established thing in the MH games, but it was always something special. In mh4u, you could at least scale the walls during the ultimate attack, you got cannons and railways and it felt like something was at stake.
+
+And worst of all, this game runs badly. If you want an MH game to play, go play World.",negative,positive,False,1386,negative -> positive
+i wish there was a mutiplare,neutral,positive,False,28,neutral -> positive
+FOR SUPEREARTH!!,neutral,negative,False,16,neutral -> negative
+"Damn! i got this game back during the Golden Age (2014) i had it on ps4 it was free and Rhino prime just came out! The black and gold rhino prime. So i bought the pack and sunk deeper and deeper into the game i Eventually lvl'd up high maybe 15 or so and i had then purchased nearly every warframe in the game. Now then then -- *deep immersive story* -*Loads of customisation options from weapons to skins, warframes and color pallets, ships, resources and more...HUGE shop*- Warframes are like action figures, each comes with a few ""powers"" u activate using simple button combos. *best 3rd person SPEED RUNNER space game i can think of. *great community and community chat support, *clans dojo's faction's and guilds. Fun alone or with multiplayer I consider warframe one of my daily's and my 2ND favourite video game. * constantly being worked on and updated, I give this game a full recommendation for anyone! *****",positive,negative,False,918,positive -> negative
+"if my walls dont move, then they shouldn't be walls",neutral,negative,False,51,neutral -> negative
+"i spent on this game 100+ hours like nothing, and for people who think its 2D minecraft you're just wrong. The amount of content in this game is crazy + mods",negative,positive,False,157,negative -> positive
+I Monster my Hunter till I Wilds,neutral,positive,False,32,neutral -> positive
